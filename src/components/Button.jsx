@@ -15,13 +15,13 @@ const handleVariant = color => {
 
 const ButtonStyled = styled.button`
   background: ${props => handleVariant(props.$variant)};
-  color: white;
+  color: yellow;
   padding: 5px;
 `
 const Button = (props) => {
   const {children, variant} = props;
     return (
-        <ButtonStyled $variant={variant}>{children}a</ButtonStyled>
+        <ButtonStyled $variant={variant}>{children}</ButtonStyled>
     )
 }
 
