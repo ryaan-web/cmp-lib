@@ -16,7 +16,7 @@ const handleVariant = color => {
 const ButtonStyled = styled.button`
   background: ${props => handleVariant(props.$variant)};
   color: yellow;
-  padding: 5px;
+  padding: 3px;
 `
 const Button = (props) => {
   const {children, variant} = props;
