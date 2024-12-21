@@ -10,7 +10,8 @@
     "publish:lib": "npm run build && npm publish",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "test": "vitest run"
+    "test": "vitest run",
+    "chromatic": "npx chromatic --project-token=chpt_2d97ccb66c75a52"
   },
   "main": "./index.js",
   "module": "./index.mjs",
