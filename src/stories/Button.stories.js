@@ -22,3 +22,10 @@ export const Primary = {
     children: 'Primary'
   },
 };
+
+
+export const Secondary = {
+  args: {
+    children: 'Secondary'
+  },
+};

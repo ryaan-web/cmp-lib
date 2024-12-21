@@ -20,7 +20,7 @@ const ButtonStyled = styled.button`
 const Button = (props) => {
   const {children, variant} = props;
     return (
-        <ButtonStyled $variant={variant}>{children}</ButtonStyled>
+        <ButtonStyled $variant={variant}>{children}a</ButtonStyled>
     )
 }
 
