@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-     <Button variant={'primary'}>Primaryy</Button>
+     <Button variant={'primary'}>Primary</Button>
     </>
   )
 }
